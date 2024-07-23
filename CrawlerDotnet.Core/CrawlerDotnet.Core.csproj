@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrawlerDotnet.Data\CrawlerDotnet.Data.csproj" />
+    <ProjectReference Include="..\CrawlerDotnet.Downloader\CrawlerDotnet.Downloader.csproj" />
+    <ProjectReference Include="..\CrawlerDotnet.Pipeline\CrawlerDotnet.Pipeline.csproj" />
+    <ProjectReference Include="..\CrawlerDotnet.Processor\CrawlerDotnet.Processor.csproj" />
+    <ProjectReference Include="..\CrawlerDotnet.Request\CrawlerDotnet.Request.csproj" />
+    <ProjectReference Include="..\CrawlerDotnet.Scheduler\CrawlerDotnet.Scheduler.csproj" />
+  </ItemGroup>
+
+</Project>
